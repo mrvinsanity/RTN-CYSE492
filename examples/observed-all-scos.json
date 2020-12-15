@@ -1,0 +1,243 @@
+{
+  "type": "bundle",
+  "id": "bundle--1affa123-0a4f-4fc5-81c6-fc1b058f9e46",
+  "objects": [
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--b67d30ff-02ac-498a-92f9-32f845f448cf",
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "created": "2016-04-06T19:58:16.000Z",
+      "modified": "2016-04-06T19:58:16.000Z",
+      "first_observed": "2015-12-21T19:00:00Z",
+      "last_observed": "2015-12-21T19:00:00Z",
+      "number_observed": 50,
+      "object_refs": [
+        "ipv4-address--efcd5e80-570d-4131-b213-62cb18eaa6a8",
+        "domain-name--ecb120bf-2694-4902-a737-62b74539a41b",
+        "artifact--ca17bcf8-9846-5ab4-8662-75c1bf6e63ee",
+        "artifact--6f437177-6e48-5cf8-9d9e-872a2bddd641",
+        "autonomous-system--f720c34b-98ae-597f-ade5-27dc241e8c74",
+        "directory--93c0a9b0-520d-545d-9094-1a08ddf46b05",
+        "email-addr--2d77a846-6264-5d51-b586-e43822ea1ea3",
+        "file--e277603e-1060-5ad4-9937-c26c97f1ca68",
+        "file--90bd400b-89a5-51a5-b17d-55bc7719723b",
+        "file--5a27d487-c542-5f97-a131-a8866b477b46",
+        "ipv6-addr--1e61d36c-a16c-53b7-a80f-2a00161c96b1",
+        "ipv6-addr--5daf7456-8863-5481-9d42-237d477697f4",
+        "mac-addr--65cfcf98-8a6e-5a1b-8f61-379ac4f92d00",
+        "mutex--eba44954-d4e4-5d3b-814c-2b17dd8de300",
+        "user-account--0d5b424b-93b8-5cd8-ac36-306e1789d63c",
+        "user-account--9bd3afcf-deee-54f9-83e2-520653cb6bba",
+        "windows-registry-key--9d60798d-4e3e-5fe4-af8a-0e4986f0f90b",
+        "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+        "x509-certificate--b595eaf0-0b28-5dad-9e8e-0fab9c1facc9",
+        "x509-certificate--463d7b2a-8516-5a50-a3d7-6f801465d5de"
+      ]
+    },
+    {
+      "type": "artifact",
+      "spec_version": "2.1",
+      "id": "artifact--ca17bcf8-9846-5ab4-8662-75c1bf6e63ee",
+      "mime_type": "image/jpeg",
+      "payload_bin": "VBORw0KGgoAAAANSUhEUgAAADI== ..."
+    },
+    {
+      "type": "artifact",
+      "spec_version": "2.1",
+      "id": "artifact--6f437177-6e48-5cf8-9d9e-872a2bddd641",
+      "mime_type": "application/zip",
+      "payload_bin": "ZX7HIBWPQA99NSUhEUgAAADI== ...",
+      "encryption_algorithm": "mime-type-indicated",
+      "decryption_key": "My voice is my passport"
+    },
+    {
+      "type": "artifact",
+      "spec_version": "2.1",
+      "id": "artifact--dacb41d9-682b-486a-a476-155ca475340f",
+      "mime_type": "application/zip",
+      "encryption_algorithm": "AES-256-GCM",
+      "decryption_key": "decryption key value"
+    },
+    {
+      "type": "autonomous-system",
+      "spec_version": "2.1",
+      "id": "autonomous-system--f720c34b-98ae-597f-ade5-27dc241e8c74",
+      "number": 15139,
+      "name": "Slime Industries",
+      "rir": "ARIN"
+    },
+    {
+      "type": "directory",
+      "spec_version": "2.1",
+      "id": "directory--93c0a9b0-520d-545d-9094-1a08ddf46b05",
+      "path": "C:\\Windows\\System32"
+    },
+    {
+      "type": "email-addr",
+      "spec_version": "2.1",
+      "id": "email-addr--2d77a846-6264-5d51-b586-e43822ea1ea3",
+      "value": "john@example.com",
+      "display_name": "John Doe"
+    },
+    {
+      "type": "file",
+      "spec_version": "2.1",
+      "id": "file--e277603e-1060-5ad4-9937-c26c97f1ca68",
+      "hashes": {
+        "SHA-256": "fe90a7e910cb3a4739bed9180e807e93fa70c90f25a8915476f5e4bfbac681db"
+      },
+      "size": 25536,
+      "name": "foo.dll"
+    },
+    {
+      "type": "file",
+      "spec_version": "2.1",
+      "id": "file--90bd400b-89a5-51a5-b17d-55bc7719723b",
+      "hashes": {
+        "SHA-256": "841a8921140aba50671ebb0770fecc4ee308c4952cfeff8de154ab14eeef4649"
+      },
+      "name": "quêry.dll",
+      "name_enc": "windows-1252"
+    },
+    {
+      "type": "directory",
+      "spec_version": "2.1",
+      "id": "directory--93c0a9b0-520d-545d-9094-1a08ddf46b05",
+      "path": "C:\\Windows\\System32"
+    },
+    {
+      "type": "file",
+      "spec_version": "2.1",
+      "id": "file--5a27d487-c542-5f97-a131-a8866b477b46",
+      "hashes": {
+        "SHA-256": "ceafbfd424be2ca4a5f0402cae090dda2fb0526cf521b60b60077c0f622b285a"
+      },
+      "parent_directory_ref": "directory--93c0a9b0-520d-545d-9094-1a08ddf46b05",
+      "name": "qwerty.dll"
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--ecb120bf-2694-4902-a737-62b74539a41b",
+      "value": "example.com",
+      "resolves_to_refs": ["ipv4-addr--efcd5e80-570d-4131-b213-62cb18eaa6a8"]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--efcd5e80-570d-4131-b213-62cb18eaa6a8",
+      "value": "198.51.100.3"
+    },
+    {
+      "type": "ipv6-addr",
+      "spec_version": "2.1",
+      "id": "ipv6-addr--1e61d36c-a16c-53b7-a80f-2a00161c96b1",
+      "value": "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+    },
+    {
+      "type": "ipv6-addr",
+      "spec_version": "2.1",
+      "id": "ipv6-addr--5daf7456-8863-5481-9d42-237d477697f4",
+      "value": "2001:0db8::/96"
+    },
+    {
+      "type": "mac-addr",
+      "spec_version": "2.1",
+      "id": "mac-addr--65cfcf98-8a6e-5a1b-8f61-379ac4f92d00",
+      "value": "d2:fb:49:24:37:18"
+    },
+    {
+      "type": "mutex",
+      "spec_version": "2.1",
+      "id": "mutex--eba44954-d4e4-5d3b-814c-2b17dd8de300",
+      "name": "__CLEANSWEEP__"
+    },
+    {
+      "type": "user-account",
+      "spec_version": "2.1",
+      "id": "user-account--0d5b424b-93b8-5cd8-ac36-306e1789d63c",
+      "user_id": "1001",
+      "account_login": "jdoe",
+      "account_type": "unix",
+      "display_name": "John Doe",
+      "is_service_account": false,
+      "is_privileged": false,
+      "can_escalate_privs": true,
+      "account_created": "2016-01-20T12:31:12Z",
+      "credential_last_changed": "2016-01-20T14:27:43Z",
+      "account_first_login": "2016-01-20T14:26:07Z",
+      "account_last_login": "2016-07-22T16:08:28Z"
+    },
+    {
+      "type": "user-account",
+      "spec_version": "2.1",
+      "id": "user-account--9bd3afcf-deee-54f9-83e2-520653cb6bba",
+      "user_id": "thegrugq_ebooks",
+      "account_login": "thegrugq_ebooks",
+      "account_type": "twitter",
+      "display_name": "the grugq"
+    },
+    {
+      "type": "windows-registry-key",
+      "spec_version": "2.1",
+      "id": "windows-registry-key--9d60798d-4e3e-5fe4-af8a-0e4986f0f90b",
+      "key": "HKEY_LOCAL_MACHINE\\System\\Foo\\Bar"
+    },
+    {
+      "type": "windows-registry-key",
+      "spec_version": "2.1",
+      "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+      "key": "hkey_local_machine\\system\\bar\\foo",
+      "values": [
+        {
+          "name": "Foo",
+          "data": "qwerty",
+          "data_type": "REG_SZ"
+        },
+        {
+          "name": "Bar",
+          "data": "42",
+          "data_type": "REG_DWORD"
+        }
+      ]
+    },
+    {
+      "type": "x509-certificate",
+      "spec_version": "2.1",
+      "id": "x509-certificate--463d7b2a-8516-5a50-a3d7-6f801465d5de",
+      "issuer": "C=ZA, ST=Western Cape, L=Cape Town, O=Thawte Consulting cc, OU=Certification Services Division, CN=Thawte Server CA/emailAddress=server-certs@thawte.com",
+      "validity_not_before": "2016-03-12T12:00:00Z",
+      "validity_not_after": "2016-08-21T12:00:00Z",
+      "subject": "C=US, ST=Maryland, L=Pasadena, O=Brent Baccala, OU=FreeSoft, CN=www.freesoft.org/emailAddress=baccala@freesoft.org",
+      "serial_number": "36:f7:d4:32:f4:ab:70:ea:d3:ce:98:6e:ea:99:93:49:32:0a:b7:06"
+    },
+
+    {
+      "type":"x509-certificate",
+      "spec_version": "2.1",
+      "id": "x509-certificate--b595eaf0-0b28-5dad-9e8e-0fab9c1facc9",
+      "issuer":"C=ZA, ST=Western Cape, L=Cape Town, O=Thawte Consulting cc, OU=Certification Services Division, CN=Thawte Server CA/emailAddress=server-certs@thawte.com",
+      "validity_not_before":"2016-03-12T12:00:00Z",
+      "validity_not_after":"2016-08-21T12:00:00Z",
+      "subject":"C=US, ST=Maryland, L=Pasadena, O=Brent Baccala, OU=FreeSoft, CN=www.freesoft.org/emailAddress=baccala@freesoft.org",
+      "serial_number": "02:08:87:83:f2:13:58:1f:79:52:1e:66:90:0a:02:24:c9:6b:c7:dc",
+      "x509_v3_extensions":{
+        "basic_constraints":"critical,CA:TRUE, pathlen:0",
+        "name_constraints":"permitted;IP:192.168.0.0/255.255.0.0",
+        "policy_constraints":"requireExplicitPolicy:3",
+        "key_usage":"critical, keyCertSign",
+        "extended_key_usage":"critical,codeSigning,1.2.3.4",
+        "subject_key_identifier":"hash",
+        "authority_key_identifier":"keyid,issuer",
+        "subject_alternative_name":"email:my@other.address,RID:1.2.3.4",
+        "issuer_alternative_name":"issuer:copy",
+        "crl_distribution_points":"URI:http://myhost.com/myca.crl",
+        "inhibit_any_policy":"2",
+        "private_key_usage_period_not_before":"2016-03-12T12:00:00Z",
+        "private_key_usage_period_not_after":"2018-03-12T12:00:00Z",
+        "certificate_policies":"1.2.4.5, 1.1.3.4"
+      }
+    }
+  ]
+}

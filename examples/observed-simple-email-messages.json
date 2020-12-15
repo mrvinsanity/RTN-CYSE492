@@ -1,0 +1,46 @@
+{
+  "type": "bundle",
+  "id": "bundle--1affa123-0a4f-4fc5-81c6-fc1b058f9e47",
+  "objects": [
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--b67d30ff-02ac-498a-92f9-32f845f448cf",
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "created": "2016-04-06T19:58:16.000Z",
+      "modified": "2016-04-06T19:58:16.000Z",
+      "first_observed": "2015-12-21T19:00:00Z",
+      "last_observed": "2015-12-21T19:00:00Z",
+      "number_observed": 50,
+      "object_refs": [
+        "email-message--72b7698f-10c2-565a-a2a6-b4996a2f2265",
+        "email-addr--89f52ea8-d6ef-51e9-8fce-6a29236436ed",
+        "email-addr--e4ee5301-b52d-59cd-a8fa-8036738c7194"
+      ]
+    },
+    {
+      "type": "email-message",
+      "spec_version": "2.1",
+      "id": "email-message--72b7698f-10c2-565a-a2a6-b4996a2f2265",
+      "from_ref": "email-addr--89f52ea8-d6ef-51e9-8fce-6a29236436ed",
+      "to_refs": ["email-addr--e4ee5301-b52d-59cd-a8fa-8036738c7194"],
+      "is_multipart": false,
+      "date": "1997-11-21T15:55:06.000Z",
+      "subject": "Saying Hello"
+    },
+    {
+      "type": "email-addr",
+      "spec_version": "2.1",
+      "id": "email-addr--89f52ea8-d6ef-51e9-8fce-6a29236436ed",
+      "value": "jdoe@example.com",
+      "display_name": "John Doe"
+    },
+    {
+      "type": "email-addr",
+      "spec_version": "2.1",
+      "id": "email-addr--e4ee5301-b52d-59cd-a8fa-8036738c7194",
+      "value": "mary@example.com",
+      "display_name": "Mary Smith"
+    }
+  ]
+}

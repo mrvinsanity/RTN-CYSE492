@@ -1,0 +1,29 @@
+{
+  "type": "bundle",
+  "id": "bundle--1affa123-0a4f-4fc5-81c6-fc1b058f9e70",
+  "objects": [
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--b67d30ff-02ac-498a-92f9-32f845f448cf",
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "created": "2016-04-06T19:58:16.000Z",
+      "modified": "2016-04-06T19:58:16.000Z",
+      "first_observed": "2015-12-21T19:00:00Z",
+      "last_observed": "2015-12-21T19:00:00Z",
+      "number_observed": 50,
+      "object_refs": [
+        "software--a1827f6d-ca53-5605-9e93-4316cd22a00a"
+      ]
+    },
+    {
+      "type": "software",
+      "spec_version": "2.1",
+      "id": "software--a1827f6d-ca53-5605-9e93-4316cd22a00a",
+      "name": "Word",
+      "cpe": "cpe:2.3:a:microsoft:word:2000:*:*:*:*:*:*:*",
+      "version": "2002",
+      "vendor": "Microsoft"
+    }
+  ]
+}
