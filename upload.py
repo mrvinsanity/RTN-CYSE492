@@ -9,7 +9,7 @@ def queryDB(t):
     now = datetime.utcnow()
     lowerBound = now - timeBuffer
     upperBound = now + timeBuffer
-    conn = sqlite3.connect('data.db')
+    conn = sqlite3.connect('/tmp/data.db')
     c = conn.cursor()
     fileNames = []
     queries = c.execute("SELECT id,content FROM content_blocks WHERE date_created between '%s' and '%s'" % (lowerBound, upperBound)) # list of queries between lower and upper bounds
